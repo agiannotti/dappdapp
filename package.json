@@ -16,7 +16,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "compile": "npx hardhat compile",
+    "local": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.ts --network localhost"
   },
   "eslintConfig": {
     "extends": [
